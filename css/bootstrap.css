@@ -1,4 +1,15 @@
-/*!
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>/*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -1410,7 +1421,7 @@ a.bg-danger:focus {
 }
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 0px 0px 20px;
   border-bottom: 1px solid #eee;
 }
 ul,
@@ -3683,7 +3694,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
   bottom: 100%;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
 }
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
@@ -4541,8 +4552,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color:transparent;
+  border:1px solid #ccc;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4567,7 +4578,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+  background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4593,7 +4604,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+  background-color: transparent;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
