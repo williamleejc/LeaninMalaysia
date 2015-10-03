@@ -1,3 +1,7 @@
+body {
+        font-family: ProximaNova,Arial,sans-serif;
+
+}
 .leanin-header {
 min-height:400px;
     padding-left:0%;
@@ -61,19 +65,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11f00', end
 #leanin-header-text {
     width:50%;
         color:white;
-    text-align:left;
+    text-align:center;
     margin-right:25%;
     margin-left:25%;
 
 }
 #leanin-header-text h1 {
-
+    font-size:65px;
     font-weight:900;
 }
 
 #leanin-header-text h4 {
-    font-weight:100;
-    text-align:left;
+    font-weight:200;
+    text-align:center;
+    line-height:25px;
+    font-size:15px;
+    width:80%;
+    margin:0 auto;
 
 }
 
@@ -83,8 +91,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11f00', end
     color:#fff;
     background-color:#ee2e24;
     width:100%;
-    padding:10px 0 30px 0;
+    padding:10px 0 40px 0;
     margin-top:20px;
+    
+    
 }
 #leanin-header-register a{
     text-decoration:none;
@@ -125,37 +135,50 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11f00', end
     text-align:center;
     width:100%;
     margin-top:0px;
-   
+   height:400px;
     
 }
 
-.aboutus-header h2{
-    padding-bottom:10px;
+.headerwithborder {
+     padding-bottom:10px;
     border-bottom:2px solid #ee2e24;
-    width:30%;
+    width:20%;
     margin:40px auto;
-
-    
+    text-align:center;
 }
 
 .aboutus-header h4{
     font-size:14px;
  font-weight:300;
-    width:70%;
+    width:60%;
     margin:-20px auto;
+    line-height:20px;
+    color:#333;
+}
+.pre-reg--numbers-map {
+    background-image: url(/img/map.png);
+}
+.pre-reg--numbers-map {
+    padding: 75px 45px 0;
+    height: 275px;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 
 /* Third SECTION */
 .third {
-    padding:0 0% 0 10%;
+    padding:0 10% 0 10%;
 }
 
 
 .ourpeople {
 }
-.ourpeople:hover {
-    background-color:#ee2e24;}
+.ourpeople {
+ }
 
 .ourpeople .btn {
     width:100%;
@@ -172,4 +195,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11f00', end
     width:100px;
     height:100px;
     margin:40px auto;
+}
+.thumbnail:hover {
+    border-color:#ee2e24;
+    border-width:3px;
+}
+
+
+/* site footer */
+.site-footer {
+     font-size:10px;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #000;
+    color: #fff;
+    padding-left:10%;
+    padding-right:10%;
+    height:300px;
+}
+.site-footer--logo {
+    position: relative;
+    padding: 20px 0;
+    height: 64px;
+    text-align: center;
+}
+.site-footer--logo:after, .site-footer--logo:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 25px;
+    height: 1px;
+    width: 380px;
+    background: #353535;
+}
+.site-footer--connect {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 40px;
+    padding: 20px 0 20px 150px;
+    border: 1px solid #353535;
+    border-width: 1px 0;
+}
+
+.site-footer ul a {
+    color: #818181;
 }
